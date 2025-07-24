@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const ACCESS_TOKEN =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNzZlYWNmYjk5NmY2NGIzNDcxMjQ3YTEwZjM4MmM2ZCIsIm5iZiI6MTczOTcyNDIzNi43MDUsInN1YiI6IjY3YjIxNWNjODVmNTc2ZTk3ZDZkYzFjNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Z6XSu1YR8K7J4WmyNOpFFf2M4ztwnIhhKZumyRViq60";
+const ACCESS_TOKEN =import.meta.env.VITE_API_ACCESS_TOKEN;
 
 const API_URL = "https://api.themoviedb.org/3";
 
